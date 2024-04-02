@@ -1,0 +1,57 @@
+header {
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12.9rem;
+    border-bottom: 2px solid #FDFDFD;
+    display: flex;
+    align-items: center;
+    
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .right {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        justify-content: space-between;
+        max-width: 38.1rem;
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 3.4rem;
+        }
+        .btn {
+            display: flex;
+            align-items: center;
+            span {
+                font-size: 1.6rem;
+                margin-right: 1.6rem;
+                line-height: 160%;
+                text-decoration: underline;
+                color: var(--black);
+                font-weight: 500;
+            }
+        }
+    }
+    .tag {
+        position: absolute;
+        left: 1.5rem;
+        bottom: -6rem;
+        background-color: #FDFDFD;
+        border-radius: 12.2rem;
+        padding: 0.8rem 1.6rem;
+        font-size: 1.3rem;
+        line-height: 1.6rem;
+        letter-spacing: -0.01rem;
+        color: var(--red);
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+}
