@@ -25,8 +25,131 @@ a {
   display: block;
 }
 
+.s-hero {
+  width: 100%;
+  background-color: #F2F3F9;
+  padding-top: 19.3rem;
+  padding-bottom: 18rem;
+  overflow-x: hidden;
+}
+.s-hero .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.s-hero .left {
+  width: 100%;
+  max-width: 56.4rem;
+  margin-top: 1.6rem;
+  position: relative;
+}
+.s-hero .left .star {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.s-hero .left h1 {
+  position: relative;
+  font-weight: 600;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  letter-spacing: -0.01;
+  color: var(--black);
+  margin-bottom: 2.6rem;
+  z-index: 1;
+}
+.s-hero .left h1::before {
+  content: "";
+  width: 43.5rem;
+  height: 8px;
+  background-color: var(--yellow);
+  position: absolute;
+  bottom: 16px;
+  left: 0;
+  z-index: -1;
+}
+.s-hero .left p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+  color: var(--gray);
+  margin-bottom: 4rem;
+}
+.s-hero .left form {
+  width: 100%;
+  max-width: 52rem;
+  background-color: var(--white);
+  height: 6.9rem;
+  border-radius: 12.2rem;
+  box-shadow: 0px 15px 30px -10px rgba(204, 206, 219, 0.4);
+  -moz-border-bottom-colors: 5.6;
+  padding-left: 3.4rem;
+  padding-right: 1.5rem;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6rem;
+}
+.s-hero .left form input {
+  flex: 1;
+  margin-right: 2rem;
+  border: none;
+  color: var(--black);
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 150%;
+  letter-spacing: -0.005em;
+}
+.s-hero .left form input::-moz-placeholder {
+  color: var(--gray02);
+}
+.s-hero .left form input::placeholder {
+  color: var(--gray02);
+}
+.s-hero .left form button {
+  padding: 1.5rem 2.8rem;
+  border-radius: 97.6px;
+  border: none;
+  background-color: var(--black);
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: -0.01em;
+}
+.s-hero .left ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+.s-hero .left .review {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+.s-hero .left .review span {
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  color: #666671;
+}
+.s-hero .left .review span img {
+  margin-right: 0.6rem;
+}
+.s-hero .right {
+  position: relative;
+  right: -11.2rem;
+}
+
 header {
-  background-color: aliceblue;
   position: absolute;
   top: 0;
   left: 0;
