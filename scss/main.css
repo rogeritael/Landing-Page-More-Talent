@@ -1,0 +1,50 @@
+:root {
+  --black: #1C1C1F;
+  --gray: #606272;
+  --gray02: #989BA7;
+  --white: #FFFFFF;
+  --red: #F04264;
+  --yellow: #F7B40D;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 121.6rem;
+  padding: 0 1.5rem;
+}
+
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypTextTRIAL-Regular-BF65727125ea126.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypTextTRIAL-Medium-BF65727125d9c4c.otf") format("otf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atyp BL Text";
+  src: url("../fonts/AtypTextTRIAL-Semibold-BF65727125e65f1.otf") format("otf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}/*# sourceMappingURL=main.css.map */
